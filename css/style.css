@@ -59,13 +59,20 @@ nav a.dropdown-item::after {
 
 .search-button {
     position: relative;
+    width: 50%;
+    background-color: yellow;
+    text-align: right;
 
 }
 
+.float-left {
+    float: left;
+}
+
 .search-login {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    /* position: absolute; */
+    /* top: 0px;
+    right: 0px; */
     background-color: #F5F8FA;
     color: #FF7A59;
     border: 1px solid #FF7A59;
@@ -75,9 +82,9 @@ nav a.dropdown-item::after {
 }
 
 .search-get {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    /* position: absolute; */
+    /* top: 0px;
+    right: 0px; */
     background-color: #FF7A59;
     color: #F5F8FA;
     border: 1px solid #F5F8FA;
@@ -86,6 +93,10 @@ nav a.dropdown-item::after {
     width: 12%;
 }
 
+.menu-left {
+    background-color: pink;
+    width: 50%;
+}
 /*************** fine header top */
 
 .header-middle {
