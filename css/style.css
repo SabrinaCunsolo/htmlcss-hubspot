@@ -24,6 +24,7 @@ body {
 header {
     background-color: red;
     height: 300px;
+    padding-top: 100px;
 }
 
 /*************** inizio header top */
@@ -59,6 +60,11 @@ nav a.dropdown-item::after {
     text-decoration: none;
     background-color: #F5F8FA;
     height: 100px;
+/* position fixed e width da ripristinare al termine */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .search-button {
@@ -113,6 +119,7 @@ i.fa-search{
 .header-middle {
     background-color: #FFFFFF;
     height: 100px;
+    text-decoration: none;
 }
 
 .logo-left {
