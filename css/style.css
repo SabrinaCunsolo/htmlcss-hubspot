@@ -196,7 +196,7 @@ section#box1 {
     width: 40%;
     color: #33465A;
     text-decoration: none;
-    line-height: 150px;
+    /* line-height: 150px; */
     padding-top: 50px;
 
 }
@@ -214,9 +214,9 @@ section#box1 {
     padding-bottom: 0px;
 }
 
-.float-left2 {
+/* .float-left2 {
     float: left;
-}
+} */
 
 .search-get2:hover {
     background-color: #FFBCAC;
@@ -227,8 +227,8 @@ section#box1 {
     color: #F5F8FA;
     border: 1px solid #FF7A59;
     border-radius: 3px;
-    padding: 10px;
-    width: 25%;
+    padding: 15px;
+    /* width: 100%; */
 }
 
 .getstarted {
