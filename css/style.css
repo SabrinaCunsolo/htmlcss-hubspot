@@ -47,13 +47,18 @@ nav a {
     padding: 0 15px;
 }
 
-nav a.dropdown-item::after {
+.dropdown-item::after {
     content: "▼";
     margin-left: 5px;
+    color: #7D97B6;
 }
 
-.fas {
+.fa-globe {
     color: #33465A;
+}
+
+.fa-ellipsis-v {
+    color: #7D97B6;
 }
 
 .header-top {
@@ -91,9 +96,17 @@ i.fa-search{
     background-color: #F5F8FA;
     color: #FF7A59;
     border: 1px solid #FF7A59;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 10px;
     width: 14%;
+}
+
+.search-login:hover {
+    background-color: #FFF0EE;
+}
+
+.search-get:hover {
+    background-color: #FFBCAC;
 }
 
 .search-get {
@@ -102,8 +115,8 @@ i.fa-search{
     right: 0px; */
     background-color: #FF7A59;
     color: #F5F8FA;
-    border: 1px solid #F5F8FA;
-    border-radius: 5px;
+    border: 1px solid #FF7A59;
+    border-radius: 3px;
     padding: 10px;
     width: 25%;
 }
@@ -142,12 +155,32 @@ i.fa-search{
     width: 110px;
 }
 /*************** fine header middle */
+/*************** inizio header bottom */
 .header-bottom {
     background-color: #425B76;
     height: 100px;
+    text-decoration: none;
 }
 
-section#jumbo {
+.w-text {
+    width: 100%;
+    line-height: 25px;
+}
+
+.white-text{
+    color: white;
+    font-size: 16px;
+}
+
+.white-linked-text{
+    text-decoration: underline;
+    color: white;
+    font-size: 16px
+}
+
+section#box1 {
     background-color: #FFF2EE;
     height: 500px;
 }
+
+/*************** fine header bottom */
