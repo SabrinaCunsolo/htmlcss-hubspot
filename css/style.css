@@ -155,6 +155,7 @@ i.fa-search{
     width: 110px;
 }
 /*************** fine header middle */
+
 /*************** inizio header bottom */
 .header-bottom {
     background-color: #425B76;
@@ -178,9 +179,79 @@ i.fa-search{
     font-size: 16px
 }
 
+.white-linked-text:hover {
+    color: #7FD1DE;
+}
+
+/*************** fine header bottom */
+
+/*************** inizio box1 */
+
 section#box1 {
     background-color: #FFF2EE;
     height: 500px;
 }
 
-/*************** fine header bottom */
+.box-content {
+    width: 40%;
+    color: #33465A;
+    text-decoration: none;
+    line-height: 150px;
+    padding-top: 50px;
+
+}
+
+.payoff {
+    line-height: 50px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.box-text {
+    line-height: 30px;
+    font-size: 16px;
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+.float-left2 {
+    float: left;
+}
+
+.search-get2:hover {
+    background-color: #FFBCAC;
+}
+
+.search-get2 {
+    background-color: #FF7A59;
+    color: #F5F8FA;
+    border: 1px solid #FF7A59;
+    border-radius: 3px;
+    padding: 10px;
+    width: 25%;
+}
+
+.getstarted {
+    text-align: left;
+    display: inline-block;
+    float: left;
+}
+/*************** fine box1 */
+
+/*************** inizio box2 */
+
+section#box2 {
+    background-color: #FFF2EE;
+    height: 500px;
+}
+
+/*************** fine box2 */
+
+/*************** inizio box3 */
+
+section#box3 {
+    background-color: #FFF2EE;
+    height: 500px;
+}
+
+/*************** fine box3 */
