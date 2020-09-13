@@ -663,9 +663,71 @@ section#powerful-alone {
 
 /*************** inizio box3 */
 
-section#box3 {
-    background-color: #FFF2EE;
-    height: 500px;
+section#learn-and-go {
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+    height: 600px;
 }
 
+.learn-row {
+    width: 100%;
+    height: 50%;
+    /* background-color: pink; */
+}
+
+.learn-title-content {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin: 0 15%;
+}
+
+.learn-title {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.learn-content {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.griglia-row1 {
+    width: 100%;
+    height: 35%;
+    background-color: grey;
+}
+
+.hubspot-user {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    /* background-color: pink; */
+}
+
+.fa-handshake {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.user-titolo {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+
+
+.griglia-row2 {
+    width: 100%;
+    height: 35%;
+    background-color: pink;
+}
 /*************** fine box3 */
