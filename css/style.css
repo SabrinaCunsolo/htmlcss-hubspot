@@ -189,7 +189,7 @@ i.fa-search{
 
 section#better-way {
     background-color: #FFF2EE;
-    height: 500px;
+    height: 600px;
 }
 
 .box-content {
@@ -198,8 +198,10 @@ section#better-way {
     text-decoration: none;
     /* line-height: 150px; */
     padding-top: 70px;
-
 }
+
+
+
 
 .payoff {
     line-height: 50px;
@@ -661,7 +663,7 @@ section#powerful-alone {
 }
 /*************** fine powerful alone */
 
-/*************** inizio box3 */
+/*************** inizio learn-and-go */
 
 section#learn-and-go {
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
@@ -670,33 +672,34 @@ section#learn-and-go {
 
 .learn-row {
     width: 100%;
-    height: 50%;
+    height: 33%;
     /* background-color: pink; */
 }
 
 .learn-title-content {
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding-top: 15px;
     margin: 0 15%;
 }
 
 .learn-title {
     font-size: 30px;
     line-height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .learn-content {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 20px;
 }
 
+/* griglia 1 */
 
 .griglia-row1 {
     width: 100%;
-    height: 35%;
-    background-color: grey;
+    height: 33%;
+    /* background-color: grey; */
 }
 
 .hubspot-user {
@@ -713,7 +716,7 @@ section#learn-and-go {
     /* background-color: pink; */
 }
 
-.fa-handshake {
+.prima-icona {
     font-size: 40px;
     line-height: 40px;
 }
@@ -723,11 +726,311 @@ section#learn-and-go {
     line-height: 70px;
 }
 
+.hubspot-monthly {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    /* background-color: pink; */
+}
 
+.seconda-icona {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.monthly-titolo {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.hubspot-certified {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    /* background-color: pink; */
+}
+
+.terza-icona {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.certified-titolo {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.hubspot-registered {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    border-bottom: 2px solid #FFFFFF;
+    /* border-right: 2px solid #FFFFFF; */
+    /* background-color: pink; */
+}
+
+.quarta-icona {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.registered-titolo {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+/* griglia 2 */
 
 .griglia-row2 {
     width: 100%;
-    height: 35%;
-    background-color: pink;
+    height: 33%;
+    /* background-color: pink; */
 }
-/*************** fine box3 */
+
+.hubspot-integrations {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    /* border-bottom: 2px solid #FFFFFF; */
+    border-right: 2px solid #FFFFFF;
+    /* background-color: pink; */
+}
+
+.seconda-icona {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.integrations-titolo {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.hubspot-languages {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    /* border-bottom: 2px solid #FFFFFF; */
+    border-right: 2px solid #FFFFFF;
+    /* background-color: pink; */
+}
+
+.sesta-icona {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.languages-titolo {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.hubspot-social {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    /* border-bottom: 2px solid #FFFFFF; */
+    border-right: 2px solid #FFFFFF;
+    /* background-color: pink; */
+}
+
+.settima-icona {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.social-titolo {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.hubspot-customers {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    float:left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+    /* border-bottom: 2px solid #FFFFFF; */
+    /* border-right: 2px solid #FFFFFF; */
+    /* background-color: pink; */
+}
+
+.ottava-icona {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.customers-titolo {
+    font-size: 50px;
+    line-height: 80px;
+}
+/*************** fine learn-and-go */
+
+/* ************* inizio  sezione labels */
+section#labels {
+    background-color: #FFFFFF;
+    height: 900px;
+}
+
+.row-labels1 {
+    width: 100%;
+    height: 50%;
+    /* background-color: pink; */
+}
+
+.labels-text {
+    width: 35%;
+    height: 100%;
+    float:left;
+    /* background-color: grey; */
+}
+
+.labels-titolo {
+    font-size: 50px;
+    line-height: 50px;
+    color: #33465A;
+    padding-top: 70px;
+}
+
+.labels-contenuto {
+    color: #33465A;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+.labels-img {
+    width: 100%;
+    height: 100%;
+}
+
+.lab-img-1 {
+    /* background-color: blue; */
+    width: 100%;
+    height: 50%;
+}
+
+img.iconcine {
+    width: 140px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.lab-img-2 {
+    /* background-color: green; */
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.row-labels2 {
+    width: 100%;
+    height: 50%;
+    /* background-color: coral; */
+}
+
+
+.start-growing {
+    width: 100%;
+    height: 100%;
+    /* line-height: 150px; */
+    /* padding-top: 30px; */
+    /* background-color: blue; */
+}
+
+.growing-box1{
+    width: 35%;
+    height: 100%;
+    padding-top: 50px;
+    /* background-color: red; */
+}
+
+
+.growing-title {
+    line-height: 40px;
+    font-size: 30px;
+    /* display: inline-block; */
+    padding-bottom: 20px;
+    color: #33465A;
+}
+
+.growing-text {
+    line-height: 30px;
+    font-size: 16px;
+    /* display: inline-block; */
+    padding-bottom: 20px;
+    color: #33465A;
+}
+
+.search-get2:hover {
+    background-color: #FFBCAC;
+}
+
+.search-button2 {
+    padding-bottom: 15px;
+}
+
+.search-get2 {
+    background-color: #FF7A59;
+    color: #F5F8FA;
+    border: 1px solid #FF7A59;
+    border-radius: 3px;
+    padding: 25px;
+    font-size: 18px;
+    /* width: 100%; */
+}
+
+
+.growing-getstarted {
+    text-align: left;
+    /* display: inline-block; */
+    float: left;
+}
+
+.labels-text {
+    width: 35%;
+    height: 100%;
+    float:left;
+    /* background-color: grey; */
+}
+
+
+/************** inizio footer */
+/************** fine footer */
