@@ -17,7 +17,7 @@ body {
 .container {
     width: 1200px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
 }
 
@@ -65,7 +65,7 @@ nav a {
     text-decoration: none;
     background-color: #F5F8FA;
     height: 100px;
-/* position fixed e width da ripristinare al termine */
+    border-bottom: 1px solid #CBD6E2;
     position: fixed;
     width: 100%;
     top: 0;
@@ -201,8 +201,6 @@ section#better-way {
 }
 
 
-
-
 .payoff {
     line-height: 50px;
     font-size: 40px;
@@ -300,6 +298,7 @@ section#powerful-alone {
     margin-right: 1%;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .18);
 }
 
 .fa-dot-circle {
@@ -373,6 +372,7 @@ section#powerful-alone {
     margin-bottom: 1%;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .18);
 }
 
 .fa-circle-notch {
@@ -456,6 +456,7 @@ section#powerful-alone {
     float:left;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .18);
 }
 
 .fa-stumbleupon-circle {
@@ -528,6 +529,7 @@ section#powerful-alone {
     margin-bottom: 1%;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .18);
 }
 
 
@@ -600,6 +602,7 @@ section#powerful-alone {
     margin-bottom: 1%;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .18);
 }
 
 .fa-spinner {
@@ -1055,6 +1058,7 @@ img.iconcine {
     width: 90%;
 }
 
+
 /* ***********inizio footer */
 
 footer {
@@ -1063,7 +1067,7 @@ footer {
 }
 
 .footer-box {
-    background-color: coral;
+    /* background-color: coral; */
     width: 100%;
     height: 100%;
     float: left;
@@ -1072,14 +1076,16 @@ footer {
 .footer1 {
     width: 100%;
     height: 60%;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 .increase-box {
     width: 24%;
     height: 100%;
-    background-color: brown;
-    display: inline-block;
+    /* background-color: brown; */
+    float: left;
+    padding-top: 40px;
+    /* display: inline-block; */
 }
 
 div .footer1 h3 {
@@ -1110,22 +1116,27 @@ div .footer1 a {
 .connect-box {
     width: 24%;
     height: 100%;
-    background-color: yellow;
-    display: inline-block;
+    /* background-color: yellow; */
+    float: left;
+    padding-top: 40px;
 }
 
 .close-box {
     width: 24%;
     height: 100%;
-    background-color: brown;
-    display: inline-block;
+    /* background-color: brown; */
+    float: left;
+    padding-top: 40px;
+    /* display: inline-block; */
 }
 
 .tools-box {
     width: 26%;
     height: 100%;
-    background-color: yellow;
-    display: inline-block;
+    /* background-color: yellow; */
+    float: left;
+    padding-top: 40px;
+    /* display: inline-block; */
 }
 
 .link-color:hover {
@@ -1150,25 +1161,102 @@ div .footer1 a {
 }
 
 div .icone-social img{
-    line-height: 20px;
     height: auto;
     width: 10%;
 }
 
+.icone-social {
+    padding-top: 30px;
+}
 
 /* ---------------------- */
 .footer2 {
     width: 100%;
     height: 15%;
-    background-color: pink;
+    /* background-color: pink; */
     box-sizing: content-box;
 }
+
+div .footer2 a {
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 20px;
+    color: #7D97B6;
+    height: 50px;
+    line-height: 40px;
+    /* padding: 0 15px; */
+}
+
+div .footer2 ul{
+    list-style-type: none;
+}
+
+div .footer2 li{
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.languages-box {
+    text-align: center;
+    /* background-color: green; */
+}
+
+.languages-color:hover {
+    color: #7FD1DE
+}
+
+/* --------------------------- */
 
 .footer3 {
     width: 100%;
     height: 25%;
-    background-color: red;
+    /* background-color: red; */
     box-sizing: content-box;
+    border-top: 1px solid #CBD6E2;
 }
-/************** inizio footer */
+
+.footer-logo {
+    width: 70%;
+    height: 100%;
+    /* background-color: grey; */
+    color: #CBD6E2;
+    float: left;
+    padding-top: 70px;
+    line-height: 30px;
+}
+
+
+.footer-copyright {
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+    color: #CBD6E2;
+    float: left;
+    padding-top: 50px;
+}
+
+div .footer3 a {
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 20px;
+    color: #7D97B6;
+    height: 50px;
+    line-height: 40px;
+    /* padding: 0 15px; */
+}
+
+div .footer3 ul{
+    list-style-type: none;
+}
+
+div .footer3 li{
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.copyright-color:hover {
+    color: #7FD1DE
+}
 /************** fine footer */
